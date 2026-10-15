@@ -1,0 +1,53 @@
+let score = 82
+if score >= 90 {
+  print("A")
+} else if score >= 80 {
+  print("B")
+} else {
+  print("C or lower")
+}
+
+let n = 7
+if n % 2 == 0 {
+  print("Even")
+} else {
+  print("Odd")
+}
+
+let temp = 25
+if temp > 20 {
+  print("Warm")
+}
+
+let hasAccess = false
+if hasAccess {
+  print("Welcome")
+} else {
+  print("Denied")
+}
+
+let score = 72
+if score >= 90 {
+  print("A")
+} else if score >= 80 {
+  print("B")
+} else if score >= 70 {
+  print("C")
+} else {
+  print("Below C")
+}
+
+let isLoggedIn = true
+let isAdmin = false
+if isLoggedIn {
+    if isAdmin {
+      print("Admin panel")
+    } else {
+      print("Limited access")
+    }
+  }
+
+let input = "hello"
+if !input.isEmpty {
+  print("Input received: \(input)")
+}
